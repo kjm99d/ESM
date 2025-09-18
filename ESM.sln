@@ -1,15 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESM", "ESM\ESM.csproj", "{89E8F801-98C9-433B-9C5D-C270C18DAC96}"
+	ProjectSection(ProjectDependencies) = postProject
+		{910E8FDB-27B9-4975-B89A-122281D896E4} = {910E8FDB-27B9-4975-B89A-122281D896E4}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMSvc", "ESMSvc\ESMSvc.csproj", "{C88E7155-A9E2-4F3C-9791-41EDB592BCCB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{910E8FDB-27B9-4975-B89A-122281D896E4} = {910E8FDB-27B9-4975-B89A-122281D896E4}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ESMCore", "ESMCore\ESMCore.vcxproj", "{CD478680-C7C2-4467-AD4E-BED7524CAF0C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SDK", "SDK", "{C8D5274F-AC00-46C7-1F8D-E88E81087A52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESMCommon", "ESMCommon\ESMCommon.csproj", "{910E8FDB-27B9-4975-B89A-122281D896E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +65,18 @@ Global
 		{CD478680-C7C2-4467-AD4E-BED7524CAF0C}.Release|x64.Build.0 = Release|x64
 		{CD478680-C7C2-4467-AD4E-BED7524CAF0C}.Release|x86.ActiveCfg = Release|Win32
 		{CD478680-C7C2-4467-AD4E-BED7524CAF0C}.Release|x86.Build.0 = Release|Win32
+		{910E8FDB-27B9-4975-B89A-122281D896E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910E8FDB-27B9-4975-B89A-122281D896E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910E8FDB-27B9-4975-B89A-122281D896E4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{910E8FDB-27B9-4975-B89A-122281D896E4}.Debug|x64.Build.0 = Debug|Any CPU
+		{910E8FDB-27B9-4975-B89A-122281D896E4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{910E8FDB-27B9-4975-B89A-122281D896E4}.Debug|x86.Build.0 = Debug|Any CPU
+		{910E8FDB-27B9-4975-B89A-122281D896E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910E8FDB-27B9-4975-B89A-122281D896E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910E8FDB-27B9-4975-B89A-122281D896E4}.Release|x64.ActiveCfg = Release|Any CPU
+		{910E8FDB-27B9-4975-B89A-122281D896E4}.Release|x64.Build.0 = Release|Any CPU
+		{910E8FDB-27B9-4975-B89A-122281D896E4}.Release|x86.ActiveCfg = Release|Any CPU
+		{910E8FDB-27B9-4975-B89A-122281D896E4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
